@@ -8,7 +8,7 @@
 **bottom_rubber.stl**: Just a cover for *bottom_support*, print it in flex to have a non-slip surface  
 **head_fast.stl**: Top lid with no accessible controller  
 
-**/Tag**: Contains the labels to be placed on each slice.
+**/Tag**: Contains the labels to be placed on each slice.  
 **/GPIO_ADAU**: Contains the "GPIO tile" for the ADAU codecs (same for ADAU1777 and ADAU1787)
 
 ## How to use
