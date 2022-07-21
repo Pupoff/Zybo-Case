@@ -15,7 +15,7 @@
 
 -Print *ZyboStage.stl*, *bottom_support.stl*, *bottom_rubber.stl*,*head_fast.stl*, and as many *GeneralPurposeStage_gpioHoles.stl* as needed.  
   
--For each tag you want, print *Back_<myTag>.stl* and *<my_tag>.stl*  
+-For each tag you want, print *Back_[myTag].stl* and *[my_tag].stl*  
   
 -Print the needed "GPIO tiles"  
 
