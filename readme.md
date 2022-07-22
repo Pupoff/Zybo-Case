@@ -1,6 +1,23 @@
-Zybo case for Zybo Z7-10 and Zybo Z7-20
+# Zybo case for Zybo Z7-10 and Zybo Z7-20
 
+**GLOBAL_VIEW.stl**: Just a preview, not intended to be printed  
+**ZyboStage.stl**: To fit the Zybo in. Jacks connector and XADC are accessible.  
+**GeneralPurposeStage_noHoles.stl**: Generic box to fit anything. No holes!  
+**GeneralPurposeStage_gpioHoles.stl**: Same as *GeneralPurposeStage_noHoles*, with two big square holes to fit a "GPIO tile"  
+**bottom_support.stl**: The bottom lid  
+**bottom_rubber.stl**: Just a cover for *bottom_support*, print it in flex to have a non-slip surface  
+**head_fast.stl**: Top lid with no accessible controller  
 
+**/Tag**: Contains the labels to be placed on each slice.  
+**/GPIO_ADAU**: Contains the "GPIO tiles" for the ADAU codecs (same for ADAU1777 and ADAU1787)
+
+## How to use
+
+-Print *ZyboStage.stl*, *bottom_support.stl*, *bottom_rubber.stl*,*head_fast.stl*, and as many *GeneralPurposeStage_gpioHoles.stl* as needed.  
+  
+-For each tag you want, print *Back_[myTag].stl* and *[my_tag].stl*  
+  
+-Print the needed "GPIO tiles"  
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
